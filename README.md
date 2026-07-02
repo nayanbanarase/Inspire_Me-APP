@@ -199,12 +199,6 @@ The application can be enhanced by adding:
 
 ---
 
-# About
-
-**InspireMe** is an Android application developed using **Java** and **XML** in **Android Studio**. It provides motivational quotes through features such as Splash Screen, Random Quotes, Favorite Quotes, Quote Sharing, Dark Mode, Text-to-Speech, Quote Image Generator, and Notifications. The application demonstrates core Android development concepts while promoting positivity and motivation.
-
----
-
 # Developed By
 
 **Nayan Shankar Banarase**
