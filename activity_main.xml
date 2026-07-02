@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/quoteText"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Quote"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:background="#D1C4E9"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/randomBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Random Quote"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Quote"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Previous Quote"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/shareBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Quote"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/speakBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speak Quote"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/favoriteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add To Favorite ❤️"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/viewFavoriteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Favorite ❤️"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/imageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Quote Image"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/notifyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Notification"
+            android:layout_marginTop="10dp"/>
+
+        <Switch
+            android:id="@+id/darkSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Mode"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
